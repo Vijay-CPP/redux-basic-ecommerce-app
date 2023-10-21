@@ -6,14 +6,14 @@ import ProductView from "./components/ProductView";
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
       <Routes>
         <Route path="/" element={<ProductList />} />
         <Route path="/product/:id" element={<ProductView />} />
         <Route path="*" element={<h1>⚠️404! Not Found!</h1>} />
       </Routes>
-    </>
+    </div>
   );
 }
 

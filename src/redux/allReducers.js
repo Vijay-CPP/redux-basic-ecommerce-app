@@ -3,9 +3,9 @@ import productReducer from "./slices/productSlice"
 
 export const reducerObj = {
     // Using Async Thunk
-    product: productReducer,
+    // product: productReducer,
     
     // Using RTK Query
-    // [productAPI.reducerPath]: productAPI.reducer
+    [productAPI.reducerPath]: productAPI.reducer
 }
 
